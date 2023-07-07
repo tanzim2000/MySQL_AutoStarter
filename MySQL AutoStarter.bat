@@ -42,5 +42,5 @@ REM Prompt the user to open MySQL Workbench
 
 choice /M "Do you want to open MySQL Workbench 8.0?" /C YN
 if %errorLevel% equ 1 (
-	start "" "WORKBENCHPATH"
+	start "" "%WORKBENCHPATH%"
 )
